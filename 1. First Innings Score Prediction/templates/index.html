@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Innings Score Prediction</title>
     <link rel="shortcut icon" href="{{ url_for('static', filename='ipl-favicon.ico') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('templates', filename='style.css') }}">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -44,11 +44,11 @@
                     </div>
                     <!-- Image-4 -->
                     <div class="image-container">
-                        <img class="image-width" src="{{ url_for('static', filename='dc.jpeg') }}" alt="Delhi Capitals">
+                        <img class="image-width" src="dc.jpeg" alt="Delhi Capitals">
                     </div>
                     <!-- Image-5 -->
                     <div class="image-container">
-                        <img class="image-width" src="{{ url_for('static', filename='rr.jpeg') }}" alt="Rajasthan Royals">
+                        <img class="image-width" src="{{ url_for('static', filename='rr.jpg') }}" alt="Rajasthan Royals">
                     </div>
                     <!-- Image-6 -->
                     <div class="image-container">
@@ -110,10 +110,6 @@
 
     </div>
 
-    <!-- Result -->
-	<div class="results">
-		<p class='result-p'>The final predicted score (range): {{ lower_limit }} to {{ upper_limit }}</p>
-	</div>
 
      <!-- IPL Banner - 2 -->
      <div class='ipl-banner-right'>
@@ -127,31 +123,31 @@
                 </div>
                 <!-- Image-2 -->
                 <div class="image-container">
-                    <img class="image-width" src="{{ url_for('static', filename='srh.png') }}" alt="Sunrisers Hyderabad">
+                    <img class="image-width" src="{{ url_for('static', filename='srh.jpeg') }}" alt="Sunrisers Hyderabad">
                 </div>
                 <!-- Image-3 -->
                 <div class="image-container">
-                    <img class="image-width" src="{{ url_for('static', filename='rcb.png') }}" alt="Royal Challengers Bangalore">
+                    <img class="image-width" src="{{ url_for('static', filename='rcb.jpeg') }}" alt="Royal Challengers Bangalore">
                 </div>
                 <!-- Image-4 -->
                 <div class="image-container">
-                    <img class="image-width" src="{{ url_for('static', filename='dc.png') }}" alt="Delhi Capitals">
+                    <img class="image-width" src="{{ url_for('static', filename='dc.jpeg') }}" alt="Delhi Capitals">
                 </div>
                 <!-- Image-5 -->
                 <div class="image-container">
-                    <img class="image-width" src="{{ url_for('static', filename='kkr.jpg') }}" alt="Kolkata Knight Riders">
+                    <img class="image-width" src="{{ url_for('static', filename='kkr.jpeg') }}" alt="Kolkata Knight Riders">
                 </div>
                 <!-- Image-6 -->
                 <div class="image-container">
-                    <img class="image-width" src="{{ url_for('static', filename='rr.png') }}" alt="Rajasthan Royals">
+                    <img class="image-width" src="{{ url_for('static', filename='rr.jpg') }}" alt="Rajasthan Royals">
                 </div>
                 <!-- Image-7 -->
                 <div class="image-container">
-                    <img class="image-width" src="{{ url_for('static', filename='kxip.png') }}" alt="Kings XI Punjab">
+                    <img class="image-width" src="{{ url_for('static', filename='kxip.jpeg') }}" alt="Kings XI Punjab">
                 </div>
                 <!-- Image-8 -->
                 <div class="image-container">
-                    <img class="image-width" src="{{ url_for('static', filename='csk.jpeg') }}" alt="Chennai Super Kings">   
+                    <img class="image-width" src="{{ url_for('static', filename='csk.jjpeg') }}" alt="Chennai Super Kings">   
                 </div>
 
             </div>
